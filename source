@@ -1074,7 +1074,7 @@ Script.Functions.MouseChanger = function()
             end
         end
         if Maple.UniversalCheck.PlayerDeathCheck then
-            if Client.Character.Humanoid.health < 4 then
+            if Client.Character.Humanoid.health < 0 then
                 AimTarget = nil
                 CurrentVelocity2 = Vector3.zero
                 return
